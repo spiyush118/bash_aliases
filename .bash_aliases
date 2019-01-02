@@ -26,5 +26,5 @@ alias e=kwrite
 alias c='clear'
 alias pyrescue='pkill -ef idle & pkill -ef py & pkill -ef firefox'
 alias rclone='rclone -v'
-alias autopep='autopep8 --aggressive --aggressive --verbose --recursive --in-place --max-line-length 1000'
+alias autopep='autopep8 --aggressive --aggressive --verbose --recursive --in-place --max-line-length 1000 --ignore E722'
 alias sl='sl -e'
