@@ -2,8 +2,8 @@
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -26,6 +26,6 @@ alias e=kwrite
 alias c='clear'
 alias pyrescue='pkill -ef idle & pkill -ef py & pkill -ef firefox'
 alias rclone='rclone -v'
-alias autopep='autopep8 --aggressive --aggressive --verbose --recursive --in-place --max-line-length 1000'
+alias autopep='autopep8 --aggressive --aggressive --verbose --recursive --in-place --max-line-length 1000 --ignore E722'
 alias sl='sl -e'
 alias vim='nologin'
