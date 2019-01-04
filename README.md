@@ -1,3 +1,3 @@
 # bash_aliases
 Bash Aliases That I find handy<br> 
-Move fileto your homefolder and rename as .bash_aliases
+Move file to your home folder and rename as .bash_aliases
